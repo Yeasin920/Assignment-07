@@ -1,6 +1,6 @@
 export default function TaskS({ progress, completeTask, resolved }) {
   return (
-    <div className="w-[350px]">
+    <div className="task-a w-[350px]">
       <h1 className="text-2xl font-semibold mb-4">Task Status</h1>
       <h2 className="text-lg font-medium mb-2">In-Progress</h2>
       {progress.length === 0 && <p>No task in progress</p>}

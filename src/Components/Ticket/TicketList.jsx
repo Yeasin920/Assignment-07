@@ -6,7 +6,7 @@ export default function TicketList({ ticketinfo, addTicket }) {
     <div className="w-[1050px]">
     <h1 className="text-2xl font-semibold mb-4">Customer Tickets</h1>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="ticket-data grid grid-cols-2 gap-4">
       {ticketinfo.map((info) => (
        <div
        key={info.id}

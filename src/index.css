@@ -26,4 +26,20 @@
     width: 100%;
     height: 180px;
   }
+
+  .ticket-tems{
+    flex-direction: column;
+  }
+
+  .ticket-data{
+    flex-direction: column;
+    width: 85%;
+  }
+  .task-a{
+    text-align: center;
+    align-items: center;
+  }
+  .footer{
+    flex-direction: column;
+  }
 }

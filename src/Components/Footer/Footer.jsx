@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white text-center p-4 mt-4 w-[1600px]">
-        <div className="flex justify-around mb-10">
+        <div className="footer flex justify-around mb-10">
              <div>
                 <h1 className="text-[24px] font-bold">CS — Ticket System</h1>
                 <p className="text-gray-400">Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry. Lorem <br /> Ipsum has been the industry's standard <br /> dummy text ever since the 1500s, when an <br /> unknown printer took a galley of type and <br /> scrambled it to make a type specimen book.</p>

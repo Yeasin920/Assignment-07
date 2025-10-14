@@ -1,5 +1,4 @@
 import React from 'react';
-import vector1 from './vector1.png';
 
 export default function Banner({inProgress,resolved}) {
 
