@@ -7,14 +7,14 @@ function Nav() {
   return (
     <>
      <div className="navbar bg-base-100 shadow-sm">
-        <div className=' flex justify-between w-[1440px] mx-auto '>
+        <div id='nav' className='flex  justify-between w-[1440px] mx-auto '>
 
         
   <a className=" text-[24px] font-bold items-center">CS — Ticket System</a>
    
-   <div className='flex gap-4 items-center'>
-    <ul tabIndex="-1"
-        className="flex gap-4 text-gray-600">
+   <div id='nav-ul' className='flex gap-4 items-center'>
+    
+        <ul className="flex gap-4 text-gray-600">
         <li><a>Home</a></li>
         <li><a>FAQ</a></li>
         <li><a>Changelog</a></li>
